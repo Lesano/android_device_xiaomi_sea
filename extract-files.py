@@ -21,7 +21,7 @@ from extract_utils.main import (
 extract_utils.tools.DEFAULT_PATCHELF_VERSION = '0_17_2'
 
 namespace_imports = [
-	'device/xiaomi/fleur',
+	'device/xiaomi/sea',
 	'hardware/mediatek',
 	'hardware/mediatek/libmtkperf_client',
 	'hardware/xiaomi',
@@ -53,9 +53,6 @@ blob_fixups: blob_fixups_user_type = {
 
     'vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc': blob_fixup()
         .regex_replace('start', 'enable'),
-
-    'vendor/etc/camera/camerabooster.json': blob_fixup()
-        .regex_replace('"sea"', '"fleur"'),
 
     ('vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so', 'vendor/lib64/libmtkcam_stdutils.so'): blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so'),
@@ -104,7 +101,7 @@ blob_fixups: blob_fixups_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'fleur',
+    'sea',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

@@ -1,4 +1,4 @@
-# All blobs that aren't noted or pinned are from sea V816.0.16.0.UHZMIXM
+# Unpinned blobs from sea 14 UP1A.230905.011 V816.0.16.0.UHZMIXM release-keys
 
 # Audio
 vendor/firmware/aw87xxx_acf.bin
@@ -157,14 +157,16 @@ vendor/firmware/BT_FW.cfg
 vendor/firmware/soc2_2_ram_bt_2_1_hdr.bin
 vendor/firmware/soc2_2_ram_bt_2a_1_hdr.bin
 
-# Camera - from fleur-user 13 SP1A.210812.016 V816.0.9.0.TKEMIXM release-keys
+# Camera
 vendor/bin/hw/camerahalserver
 vendor/bin/lib3a.ccu.ddr
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
-vendor/etc/init/camerahalserver.rc
+vendor/etc/camera/mibokeh_mt6853_opencl.bin
+vendor/etc/camera/mibokeh_mt6853_parameter.bin
+vendor/etc/init/camerahalserver.rc 
 vendor/firmware/lib3a.ccu
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -173,7 +175,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
-vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/gc02m1_macro_aac_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_macro_aac_mipi_raw_tuning.so
 vendor/lib64/gc02m1_macro_ofilm_mipi_raw_IdxMgr.so
@@ -205,6 +206,13 @@ vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
 vendor/lib64/lib3a.sensors.color.so
 vendor/lib64/lib3a.sensors.flicker.so
+vendor/lib64/libarcsoft_beautyshot.so
+vendor/lib64/libarcsoft_dualcam_refocus_image.so
+vendor/lib64/libarcsoft_dualcam_refocus_video.so
+vendor/lib64/libarcsoft_hdr_detection.so
+vendor/lib64/libarcsoft_high_dynamic_range.so
+vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libCamera_gc02m1macroaacmipiraw_Default_Capture.so
 vendor/lib64/libCamera_gc02m1macroaacmipiraw_Default_Preview.so
 vendor/lib64/libCamera_gc02m1macroaacmipiraw_Default_Video.so
@@ -231,8 +239,8 @@ vendor/lib64/libCamera_gc02m1macroofilmmipiraw_Scene_Preview_Zoom2.so
 vendor/lib64/libCamera_gc02m1macroofilmmipiraw_Scene_Professional_Capture.so
 vendor/lib64/libCamera_gc02m1macroofilmmipiraw_Scene_Professional_Preview.so
 vendor/lib64/libCamera_gc02m1macroofilmmipiraw_Video.so
-vendor/lib64/libCamera_imx355ultraofilmmipiraw_EIS_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_EIS_Video_720P.so
+vendor/lib64/libCamera_imx355ultraofilmmipiraw_EIS_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Face_Capture.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Face_Preview.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Flash_Capture.so
@@ -248,12 +256,12 @@ vendor/lib64/libCamera_imx355ultraofilmmipiraw_Scene_Capture.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Scene_Preview.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_SuperNightRaw_Capture.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_SuperNightRaw_Preview.so
-vendor/lib64/libCamera_imx355ultraofilmmipiraw_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Video_720P.so
-vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom1_Video_1080P.so
+vendor/lib64/libCamera_imx355ultraofilmmipiraw_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom1_Video_720P.so
-vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom2_Video_1080P.so
+vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom1_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom2_Video_720P.so
+vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom2_Video_1080P.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom_Capture.so
 vendor/lib64/libCamera_imx355ultraofilmmipiraw_Zoom_Preview.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_3rd_Capture.so
@@ -267,9 +275,9 @@ vendor/lib64/libCamera_imx471frontofilmmipiraw_Panorama_Capture.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_Panorama_Preview.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_Portrait_Preview.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_Scene_Preview.so
+vendor/lib64/libCamera_imx471frontofilmmipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_Video_1080P_60fps.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_imx471frontofilmmipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_imx471frontofilmmipiraw_XTS_Capture.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_3rd_Capture.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_3rd_Preview.so
@@ -282,22 +290,10 @@ vendor/lib64/libCamera_imx471frontsunnymipiraw_Panorama_Capture.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_Panorama_Preview.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_Portrait_Preview.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_Scene_Preview.so
+vendor/lib64/libCamera_imx471frontsunnymipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_Video_1080P_60fps.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_imx471frontsunnymipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_imx471frontsunnymipiraw_XTS_Capture.so
-vendor/lib64/libCamera_ov02b1bdepthsunny2mipiraw_Default_Capture.so
-vendor/lib64/libCamera_ov02b1bdepthsunny2mipiraw_Default_Preview.so
-vendor/lib64/libCamera_ov02b1bdepthsunny2mipiraw_portrait_Capture_depth.so
-vendor/lib64/libCamera_ov02b1bdepthsunny2mipiraw_portrait_preview_depth.so
-vendor/lib64/libCamera_ov02b1bdepthsunnymipiraw_Default_Capture.so
-vendor/lib64/libCamera_ov02b1bdepthsunnymipiraw_Default_Preview.so
-vendor/lib64/libCamera_ov02b1bdepthsunnymipiraw_portrait_Capture_depth.so
-vendor/lib64/libCamera_ov02b1bdepthsunnymipiraw_portrait_preview_depth.so
-vendor/lib64/libCamera_ov02b1bdepthtrulymipiraw_Default_Capture.so
-vendor/lib64/libCamera_ov02b1bdepthtrulymipiraw_Default_Preview.so
-vendor/lib64/libCamera_ov02b1bdepthtrulymipiraw_portrait_Capture_depth.so
-vendor/lib64/libCamera_ov02b1bdepthtrulymipiraw_portrait_preview_depth.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_3rd_Capture.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_3rd_Preview.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_3rd_Preview_Zoom1.so
@@ -355,14 +351,14 @@ vendor/lib64/libCamera_ov64b40mainaacmipiraw_SuperNight_Face_Capture.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_SuperNight_Preview.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_SuperNight_Preview_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_SuperNight_Preview_Zoom2.so
-vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS_Zoom1.so
-vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_720P_120fps.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_720P_120fps_Zoom.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_720P_EIS_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_720P_EIS_Zoom2.so
+vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_ov64b40mainaacmipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_XTS_Capture.so
 vendor/lib64/libCamera_ov64b40mainaacmipiraw_XTS_Preview.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_3rd_Capture.so
@@ -422,14 +418,14 @@ vendor/lib64/libCamera_ov64b40mainofilmmipiraw_SuperNight_Face_Capture.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_SuperNight_Preview.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_SuperNight_Preview_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_SuperNight_Preview_Zoom2.so
-vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS_Zoom1.so
-vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_720P_120fps.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_720P_120fps_Zoom.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_720P_EIS_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_720P_EIS_Zoom2.so
+vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_ov64b40mainofilmmipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_XTS_Capture.so
 vendor/lib64/libCamera_ov64b40mainofilmmipiraw_XTS_Preview.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_3rd_Capture.so
@@ -489,18 +485,18 @@ vendor/lib64/libCamera_ov64b40mainsunnymipiraw_SuperNight_Face_Capture.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_SuperNight_Preview.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_SuperNight_Preview_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_SuperNight_Preview_Zoom2.so
-vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS_Zoom1.so
-vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_720P_120fps.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_720P_120fps_Zoom.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_720P_EIS.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_720P_EIS_Zoom1.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_720P_EIS_Zoom2.so
+vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_ov64b40mainsunnymipiraw_Video_1080P_EIS_Zoom2.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_XTS_Capture.so
 vendor/lib64/libCamera_ov64b40mainsunnymipiraw_XTS_Preview.so
-vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_EIS_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_EIS_Video_720P.so
+vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_EIS_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Face_Capture.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Face_Preview.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Flash_Capture.so
@@ -516,12 +512,12 @@ vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Scene_Capture.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Scene_Preview.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_SuperNightRaw_Capture.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_SuperNightRaw_Preview.so
-vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Video_720P.so
-vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom1_Video_1080P.so
+vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom1_Video_720P.so
-vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom2_Video_1080P.so
+vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom1_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom2_Video_720P.so
+vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom2_Video_1080P.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom_Capture.so
 vendor/lib64/libCamera_s5k4h7ultrasunnymipiraw_Zoom_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_3rd_Capture.so
@@ -557,15 +553,6 @@ vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Scene_Professional_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_SuperNightRaw_Capture.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_SuperNightRaw_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_SuperNightSE_Capture.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps_Zoom2.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS_Zoom2.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_120fps.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_120fps_Zoom1.so
@@ -575,6 +562,15 @@ vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_EIS_Zoom1.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_EIS_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_Zoom1.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_720P_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_60fps_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_EIS_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_1080P_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_Video_Capture.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_WeChatQQ_Video.so
 vendor/lib64/libCamera_s5khm2sdmainofilmmipiraw_WeChat_Preview.so
@@ -616,15 +612,6 @@ vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Scene_Professional_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_SuperNightRaw_Capture.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_SuperNightRaw_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_SuperNightSE_Capture.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps_Zoom2.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS_Zoom2.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_Zoom1.so
-vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_120fps.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_120fps_Zoom1.so
@@ -634,12 +621,78 @@ vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_EIS_Zoom1.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_EIS_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_Zoom1.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_720P_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_60fps_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_EIS_Zoom2.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_Zoom1.so
+vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_1080P_Zoom2.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_Video_Capture.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_WeChatQQ_Video.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_WeChat_Preview.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_XTS_Capture.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_portrait_capture_full.so
 vendor/lib64/libCamera_s5khm2sdmainsemcomipiraw_portrait_preview_full.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_3rd_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Face_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Face_Capture_108M.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Face_Capture_CE.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Face_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Flash_A_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Flash_A_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Flash_A_Preview_zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Flash_A_Preview_zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Face_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Face_Capture_CE.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Scene_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Scene_Capture_CE.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Scene_Capture_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_HDR_Scene_Capture_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_LLHDR_Face_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_LLHDR_Scene_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Panorama_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_QQ_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture_108M.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture_CE.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture_Professional.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Capture_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Preview_FullScale.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Preview_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Preview_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Scene_Professional_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_SuperNightRaw_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_SuperNightRaw_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_SuperNightSE_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_120fps.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_120fps_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_120fps_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_EIS.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_EIS_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_EIS_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_720P_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_60fps.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_60fps_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_60fps_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_EIS.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_EIS_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_EIS_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_Zoom1.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_1080P_Zoom2.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_Video_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_WeChatQQ_Video.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_WeChat_Preview.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_XTS_Capture.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_portrait_capture_full.so
+vendor/lib64/libCamera_s5khm2spmainsunnymipiraw_portrait_preview_full.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libQstAlgo.so
@@ -652,7 +705,6 @@ vendor/lib64/libSonyIMX386PdafLibrary.so
 vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
 vendor/lib64/libSonyIMX519PdafLibrary.so
 vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
-vendor/lib64/lib_bsscore.so
 vendor/lib64/libaaa_ltm.so
 vendor/lib64/libaaa_ltmx.so
 vendor/lib64/libaiawb_moon.so
@@ -661,21 +713,15 @@ vendor/lib64/libaiawb_p1ggm.so
 vendor/lib64/libaiawb_sun.so
 vendor/lib64/libaiawb_sun_model.so
 vendor/lib64/libalCFR.so
+vendor/lib64/libalLDC.so
+vendor/lib64/libalhLDC.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
-vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_hdr_detection.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
-vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
 vendor/lib64/libasn1c_mdmi.so
 vendor/lib64/libbwc.so
-vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.afhal.so
 vendor/lib64/libcam.chdr.so
-vendor/lib64/libcam.feature_utils.so
 vendor/lib64/libcam.hal3a.cctsvr.so
 vendor/lib64/libcam.hal3a.log.so
 vendor/lib64/libcam.hal3a.v3.ae.so
@@ -684,8 +730,6 @@ vendor/lib64/libcam.hal3a.v3.awb.so
 vendor/lib64/libcam.hal3a.v3.dng.so
 vendor/lib64/libcam.hal3a.v3.fsmgr.so
 vendor/lib64/libcam.hal3a.v3.lscMgr.so
-vendor/lib64/libcam.hal3a.v3.lsctbl.50.so
-vendor/lib64/libcam.hal3a.v3.nvram.50.so
 vendor/lib64/libcam.hal3a.v3.platform.so
 vendor/lib64/libcam.hal3a.v3.resultpool.so
 vendor/lib64/libcam.hal3a.v3.so
@@ -694,14 +738,13 @@ vendor/lib64/libcam.halisp.common.so
 vendor/lib64/libcam.halisp.so
 vendor/lib64/libcam.halsensor.hwintegration.so
 vendor/lib64/libcam.halsensor.so
-vendor/lib64/libcam.iopipe.so
+vendor/lib64/libcam.iopipe.so;DISABLE_DEPS
 vendor/lib64/libcam.isptuning.so
 vendor/lib64/libcam.pdtblgen.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcam.tuning.cache.so
 vendor/lib64/libcam.utils.sensorprovider.so
 vendor/lib64/libcam.vhdr.so
-vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.dngop.so
 vendor/lib64/libcamalgo.eis.so
 vendor/lib64/libcamalgo.fdft.so
@@ -713,60 +756,60 @@ vendor/lib64/libcamalgo.lsc.so
 vendor/lib64/libcamalgo.mfnr.so
 vendor/lib64/libcamalgo.n3d.so
 vendor/lib64/libcamalgo.nr.so
-vendor/lib64/libcamalgo.platform.so
 vendor/lib64/libcamalgo.platform2.so
+vendor/lib64/libcamalgo.platform.so
 vendor/lib64/libcamalgo.rotate.so
 vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.vsf.so
 vendor/lib64/libcamalgo.warp.so
+vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamdrv_imem.so
 vendor/lib64/libcamdrv_isp.so
 vendor/lib64/libcamdrv_tuning_mgr.so
 vendor/lib64/libcamdrv_twin.so
-vendor/lib64/libcamera.custom.pd_buf_mgr.so
 vendor/lib64/libcamera.customae.so
 vendor/lib64/libcamera.customaf.so
 vendor/lib64/libcamera.customawb.so
 vendor/lib64/libcamera.customflk.so
-vendor/lib64/libcamera_scene.so
-vendor/lib64/libcameracustom.camera.3a.so
 vendor/lib64/libcameracustom.camera.isp.so
 vendor/lib64/libcameracustom.camera.sensors.so
-vendor/lib64/libcameracustom.camera_exif.so
 vendor/lib64/libcameracustom.eis.so
 vendor/lib64/libcameracustom.flashlight.so
 vendor/lib64/libcameracustom.lens.so
-vendor/lib64/libcameracustom.plugin.so
 vendor/lib64/libcameracustom.so
-vendor/lib64/libcameracustom_all_sensor_modules.so
+vendor/lib64/libcameracustom.camera.3a.so
+vendor/lib64/libcameracustom.camera_exif.so
+vendor/lib64/libcamera.custom.pd_buf_mgr.so
+vendor/lib64/libcamera_scene.so
+vendor/lib64/libcam.feature_utils.so;DISABLE_DEPS
+vendor/lib64/libcam.hal3a.v3.lsctbl.50.so
+vendor/lib64/libcam.hal3a.v3.nvram.50.so
 vendor/lib64/libchromanr.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libeffecthal.base.so
-vendor/lib64/libfeature.face.so
+vendor/lib64/libfeature.face.so;DISABLE_DEPS
 vendor/lib64/libfeature.stereo.provider.so
-vendor/lib64/libfeature.vsdof.hal.so
+vendor/lib64/libfeature.vsdof.hal.so;DISABLE_DEPS
+vendor/lib64/libfeatureiodrv_mem.so
 vendor/lib64/libfeature_3dnr.so
 vendor/lib64/libfeature_eis.so
 vendor/lib64/libfeature_fsc.so
 vendor/lib64/libfeature_lmv.so
 vendor/lib64/libfeature_rss.so
-vendor/lib64/libfeatureiodrv_mem.so
 vendor/lib64/libheichal.so
 vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libimageio.so
-vendor/lib64/libimageio_plat_drv.so
+vendor/lib64/libimageio_plat_drv.so;DISABLE_DEPS
 vendor/lib64/libimageio_plat_pipe.so
 vendor/lib64/libimgsensorca.so
-vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libispcameraca.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/liblpcnr.so
-vendor/lib64/libmfllcore.so
-vendor/lib64/libmiStereoFactoryRemapBasicLib.so
-vendor/lib64/libmiStereoFactoryRemapLib.so
+vendor/lib64/libmfllcore.so;DISABLE_DEPS
+vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
-vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF
 vendor/lib64/libmibokeh_mt6873.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmsnr.so
@@ -775,8 +818,8 @@ vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
 vendor/lib64/libmtkcam.featurepipe.depthmap.so
 vendor/lib64/libmtkcam.featurepipe.streaming.so
-vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam.logicalmodule.so
+vendor/lib64/libmtkcam.featurepipe.vsdof_util.so;DISABLE_DEPS
 vendor/lib64/libmtkcam_3rdparty.core.so
 vendor/lib64/libmtkcam_3rdparty.customer.so
 vendor/lib64/libmtkcam_3rdparty.mtk.so
@@ -803,7 +846,7 @@ vendor/lib64/libmtkcam_imgbuf.so
 vendor/lib64/libmtkcam_mapping_mgr.so
 vendor/lib64/libmtkcam_metadata.so
 vendor/lib64/libmtkcam_metastore.so
-vendor/lib64/libmtkcam_mfb.so
+vendor/lib64/libmtkcam_mfb.so;DISABLE_DEPS
 vendor/lib64/libmtkcam_modulefactory_aaa.so
 vendor/lib64/libmtkcam_modulefactory_custom.so
 vendor/lib64/libmtkcam_modulefactory_drv.so
@@ -811,7 +854,6 @@ vendor/lib64/libmtkcam_modulefactory_utils.so
 vendor/lib64/libmtkcam_modulehelper.so
 vendor/lib64/libmtkcam_owe.so
 vendor/lib64/libmtkcam_pipeline.so
-vendor/lib64/libmtkcam_pipeline_fbm.so
 vendor/lib64/libmtkcam_pipelinemodel.so
 vendor/lib64/libmtkcam_pipelinemodel_adapter.so
 vendor/lib64/libmtkcam_pipelinemodel_capture.so
@@ -819,11 +861,12 @@ vendor/lib64/libmtkcam_pipelinemodel_isp.so
 vendor/lib64/libmtkcam_pipelinemodel_session.so
 vendor/lib64/libmtkcam_pipelinemodel_utils.so
 vendor/lib64/libmtkcam_pipelinemodel_zsl.so
+vendor/lib64/libmtkcam_pipelinepolicy.so
 vendor/lib64/libmtkcam_pipelinepolicy-aov.so
 vendor/lib64/libmtkcam_pipelinepolicy-security.so
 vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
-vendor/lib64/libmtkcam_pipelinepolicy.so
 vendor/lib64/libmtkcam_pipelinepolicy_factory.so
+vendor/lib64/libmtkcam_pipeline_fbm.so
 vendor/lib64/libmtkcam_prerelease.so
 vendor/lib64/libmtkcam_rsc.so
 vendor/lib64/libmtkcam_scenariorecorder.so
@@ -833,23 +876,13 @@ vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/libmtkcam_sysutils.so
 vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/libmtkcam_ulog.so
-vendor/lib64/libremosaic_wrapper.so
-vendor/lib64/libremosaiclib.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libvidhance_calibration_tool.so
 vendor/lib64/libvidhance_stabilizer.so
-vendor/lib64/libwa_depth.so
-vendor/lib64/libwa_refocus.so
-vendor/lib64/libwa_rtdof.so
-vendor/lib64/libwa_widelens_undistort.so
-vendor/lib64/ov02b1b_depth_sunny2_mipi_raw_IdxMgr.so
-vendor/lib64/ov02b1b_depth_sunny2_mipi_raw_tuning.so
-vendor/lib64/ov02b1b_depth_sunny_mipi_raw_IdxMgr.so
-vendor/lib64/ov02b1b_depth_sunny_mipi_raw_tuning.so
-vendor/lib64/ov02b1b_depth_truly_mipi_raw_IdxMgr.so
-vendor/lib64/ov02b1b_depth_truly_mipi_raw_tuning.so
+vendor/lib64/lib_bsscore.so
+vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/ov64b40_main_aac_mipi_raw_IdxMgr.so
 vendor/lib64/ov64b40_main_aac_mipi_raw_tuning.so
 vendor/lib64/ov64b40_main_ofilm_mipi_raw_IdxMgr.so
@@ -862,6 +895,8 @@ vendor/lib64/s5khm2sd_main_ofilm_mipi_raw_IdxMgr.so
 vendor/lib64/s5khm2sd_main_ofilm_mipi_raw_tuning.so
 vendor/lib64/s5khm2sd_main_semco_mipi_raw_IdxMgr.so
 vendor/lib64/s5khm2sd_main_semco_mipi_raw_tuning.so
+vendor/lib64/s5khm2sp_main_sunny_mipi_raw_IdxMgr.so
+vendor/lib64/s5khm2sp_main_sunny_mipi_raw_tuning.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -873,7 +908,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
-# Camera (Configs) - from fleur-user 13 SP1A.210812.016 V816.0.9.0.TKEMIXM release-keys
+# Camera (Configs)
 vendor/etc/camera/model/cap_ldc_model/ldc_cap_cache
 vendor/etc/camera/model/cap_ldc_model/ldc_cap_model
 vendor/etc/camera/model/cap_ldc_model/ldc_cap_policy
@@ -895,12 +930,13 @@ vendor/etc/camera/com.xiaomi.dcal.wu.3.golden
 vendor/etc/camera/dof_mecp.bin
 vendor/etc/camera/intsense_config_undistort_k7p.bin
 vendor/etc/camera/intsense_config_undistort_k7s.bin
-vendor/etc/camera/mibokeh_mt6853_opencl.bin
-vendor/etc/camera/mibokeh_mt6853_parameter.bin
+vendor/etc/camera/LDC_packdata_xiaomi_v1.dat
+vendor/etc/camera/LDC_packdata_xiaomi_v2.dat
+vendor/etc/camera/libalfpc_tuning.bin
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/vidhance_calibration
-vendor/odm/etc/camera/camerabooster.json:vendor/etc/camera/camerabooster.json
+odm/etc/camera/camerabooster.json:vendor/etc/camera/camerabooster.json
 
 # Connectivity
 vendor/bin/wmt_launcher
@@ -919,6 +955,7 @@ vendor/lib64/hw/hwcomposer.mt6781.so:vendor/lib64/hw/hwcomposer.mtk_common.so;FI
 vendor/lib64/mt6781/libdpframework.so:vendor/lib64/libdpframework.so
 vendor/lib64/mt6781/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6781/libpq_prot.so:vendor/lib64/libpq_prot.so
+vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/libcomposer_ext.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
@@ -951,7 +988,7 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
-# Display (Thread Unwinding) - from gale-user 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+# Display (Thread Unwinding)
 vendor/lib/libladder.so
 vendor/lib64/libladder.so
 vendor/lib64/libudf.so
@@ -966,19 +1003,18 @@ vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin
 vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin
 vendor/firmware/remoteproc_scp
 
-# Display (Configs) - from fleur-user 13 SP1A.210812.016 V816.0.9.0.TKEMIXM release-keys
-vendor/etc/dsi_panel_k7s_38_0c_0a_video_mi.xml
-vendor/etc/dsi_panel_k7s_38_0c_0b_video_mi.xml
+# Display (Configs)
+vendor/etc/dsi_panel_k7sr_38_0c_0a_video_mi.xml
+vendor/etc/dsi_panel_k7sr_38_0c_0b_video_mi.xml
 vendor/etc/screen_light.xml
 
-# DRM (Widevine) - from zircon-user 13 TP1A.220624.014 OS2.0.2.0.VNOMIXM release-keys
-vendor/bin/hw/android.hardware.drm-service.widevine
-vendor/etc/init/android.hardware.drm-service.widevine.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
-vendor/lib64/libwvaidl.so
-
 # DRM (Widevine)
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/liboemcrypto.so
+vendor/lib64/libwvhidl.so
 vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/liburee_meta_drmkeyinstall.so
 
@@ -1000,15 +1036,14 @@ vendor/lib/libfgauge_gm30.so
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.beanpod.so
 
-# Graphics - from A165FXXS2AXL5
-vendor/lib64/egl/mt6789/libGLES_mali.so:vendor/lib64/egl/libGLES_mali.so
+# Graphics
+vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
-vendor/lib64/hw/mt6789/vulkan.mali.so:vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/mt6789/arm.graphics-V1-ndk_platform.so:vendor/lib64/arm.graphics-V1-ndk_platform.so
+vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
@@ -1016,7 +1051,7 @@ vendor/lib64/libgralloc_extra.so
 vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
 
-# ION from gale-user 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+# ION
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib64/libion_mtk.so
@@ -1052,11 +1087,12 @@ vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
 
-# MMAgent from sea-user AP3A.240905.015.A2 OS2.0.1.0.VHZMIXM release-keys
-vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
-vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
-vendor/lib64/mt6781/libmmagent.so:vendor/lib64/libmmagent.so
-vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so
+# MMAgent
+vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
+vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
+vendor/lib64/libmmagent.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 
 # MMS
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
@@ -1075,26 +1111,25 @@ vendor/bin/netdagent
 vendor/etc/init/netdagent.rc
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
-# Neural Networks from sea-user AP3A.240905.015.A2 OS2.0.1.0.VHZMIXM release-keys
-vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk-legacy
-vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc
-vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
-vendor/etc/vintf/manifest/manifest_apuware_utils_aidl.xml
-vendor/lib64/mt6781/libneuron_adapter_mgvi.so:vendor/lib64/libneuron_adapter_mgvi.so
-vendor/lib64/mt6781/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
-vendor/lib64/APUWareUtilsAidlServer.so
-vendor/lib64/libneuralnetworks_sl_driver_mtk_legacy_prebuilt.so
-vendor/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so
-
 # Neural Networks
+vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
 vendor/etc/armnn_app.config
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
+vendor/lib64/APUWareUtilsServer.so
 vendor/lib64/libapu_mdw.so
+vendor/lib64/libapusys.so
+vendor/lib64/libapusys_edma.so
 vendor/lib64/libarmnn.so
 vendor/lib64/libarmnn_ndk.mtk.vndk.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
 vendor/lib64/libneuroeara.so
+vendor/lib64/libneuron_adapter.so
+vendor/lib64/libneuron_platform.so
+vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so;FIX_SONAME
+vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 
 # NFC
 vendor/firmware/st21nfc_fw7.bin
@@ -1161,7 +1196,7 @@ vendor/bin/bp_kmsetkey_ca
 vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 
-# Radio - from fleur-user 13 SP1A.210812.016 V816.0.9.0.TKEMIXM release-keys
+# Radio
 vendor/bin/hw/mtkfusionrild
 
 # Radio
@@ -1328,10 +1363,9 @@ vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 vendor/thh/ta/isee_model.json
 
-# Tether Offload - from gale-user 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+# Tether Offload
 vendor/bin/hw/tetheroffloadservice
-vendor/etc/init/android.hardware.tetheroffload-V1-service.rc
-vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml
+vendor/etc/init/tetheroffloadservice.rc
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
 

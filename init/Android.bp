@@ -46,8 +46,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.nfc.fleur.rc",
-    src: "init.nfc.fleur.rc",
+    name: "init.nfc.ksrn.rc",
+    src: "init.nfc.ksrn.rc",
     relative_install_path: "init",
     vendor: true,
 }

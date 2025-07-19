@@ -2,12 +2,12 @@ Common_CFlags = ["-Wall"]
 Common_CFlags += ["-Werror"]
 
 cc_binary {
-    name: "vendor.qti.hardware.vibrator.service.fleur",
+    name: "vendor.qti.hardware.vibrator.service.sea",
     vendor: true,
     relative_install_path: "hw",
-    init_rc: ["vendor.qti.hardware.vibrator.service.fleur.rc"],
+    init_rc: ["vendor.qti.hardware.vibrator.service.sea.rc"],
     vintf_fragments: [
-        "vendor.qti.hardware.vibrator.service.fleur.xml",
+        "vendor.qti.hardware.vibrator.service.sea.xml",
     ],
     cflags: Common_CFlags,
     srcs: [

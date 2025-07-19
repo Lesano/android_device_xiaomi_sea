@@ -1,4 +1,4 @@
-# AOSP Device Tree for the Redmi Note 11S/POCO M4 Pro 4G (fleur)
+# AOSP Device Tree for the Redmi Note 12S (sea)
 
 # Bugs
 - IMS
