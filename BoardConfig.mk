@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/sea
+KERNEL_PATH := device/xiaomi/sea-prebuilt
 
 # Enable 64-bit for non-zygote.
 ZYGOTE_FORCE_64 := true
@@ -81,6 +82,14 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
+
+# Kernel (prebuilt)
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/kernel
+TARGET_PREBUILT_DTB := $(KERNEL_PATH)/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
+
+BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/modules/*.ko)
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
