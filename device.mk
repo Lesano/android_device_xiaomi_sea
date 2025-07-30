@@ -217,6 +217,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
 
+# Libshim
+PRODUCT_PACKAGES += \
+    libbase_shim
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
