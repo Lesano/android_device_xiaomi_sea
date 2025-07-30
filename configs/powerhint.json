@@ -299,7 +299,7 @@
     },
     {
       "Name": "DoubleTap",
-      "Path": "/sys/touchpanel/double_tap",
+      "Path": "/proc/tp_gesture",
       "Values": [
         "1",
         "0"
