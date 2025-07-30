@@ -48,7 +48,7 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.nfc.ksrn.rc",
     src: "init.nfc.ksrn.rc",
-    relative_install_path: "init",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
