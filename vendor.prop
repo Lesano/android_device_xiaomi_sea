@@ -106,6 +106,13 @@ persist.vendor.viwifi_support=1
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.mtk_data_config=1
 
+# Kernel module loading
+ro.vendor.fm.platform=mt6631_6635
+ro.vendor.gps.chrdev=gps_drv
+ro.vendor.wlan.chrdev=wmt_chrdev_wifi
+ro.vendor.wlan.gen=gen4m
+ro.vendor.bt.platform=connac1x
+
 # Keymaster
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.hardware.kmsetkey=beanpod

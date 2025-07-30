@@ -1057,6 +1057,17 @@ vendor/lib/libion_ulit.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 
+# Kernel module loading
+vendor/bin/init.insmod.sh
+vendor/etc/init/init.bt_drv.rc
+vendor/etc/init/init.connfem.rc
+vendor/etc/init/init.fmradio_drv.rc
+vendor/etc/init/init.gps_drv.rc
+vendor/etc/init/init.udc_lib.rc
+vendor/etc/init/init.wlan_drv.rc
+vendor/etc/init/init.wmt_drv.rc
+vendor/etc/init/init.xcap.rc
+
 # Media
 vendor/bin/vpud
 vendor/etc/init/vpud.rc
