@@ -1,7 +1,7 @@
 # AOSP Device Tree for the Redmi Note 12S (sea)
 
 # Bugs
-- IMS
+- No known bugs
 
 ```
 #
