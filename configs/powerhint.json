@@ -303,26 +303,7 @@
       "Values": [
         "1",
         "0"
-      ],
-    },
-    {
-      "Name": "FGUclampMin",
-      "Path": "/dev/cpuctl/foreground/cpu.uclamp.min",
-      "Values": [
-        "10",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "TAUclampMin",
-      "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
-      "Values": [
-        "100",
-        "10",
-        "0"
-      ],
-      "ResetOnInit": true
+      ]
     },
     {
       "Name": "PowerHALMainState",
@@ -347,6 +328,25 @@
       "Path": "vendor.powerhal.rendering",
       "Values": ["EXPENSIVE_RENDERING", ""],
       "Type": "Property"
+    },
+    {
+      "Name": "TASchedtuneBoost",
+      "Path": "/dev/stune/top-app/schedtune.boost",
+      "Values": [
+        "50",
+        "10"
+      ],
+      "ResetOnInit": true
+    },
+    {
+      "Name": "SchedBoost",
+      "Path": "/proc/sys/kernel/sched_boost",
+      "Values": [
+        "2",
+        "1",
+        "0"
+      ],
+      "ResetOnInit": true
     }
   ],
   "Actions": [
@@ -430,15 +430,15 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "FGUclampMin",
+      "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "10"
+      "Value": "50"
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "TAUclampMin",
+      "Node": "SchedBoost",
       "Duration": 0,
-      "Value": "10"
+      "Value": "2"
     },
     {
       "PowerHint": "LAUNCH",
@@ -457,6 +457,18 @@
       "Node": "DRAMOppMin",
       "Duration": 2500,
       "Value": "1"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SchedBoost",
+      "Duration": 3000,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "TASchedtuneBoost",
+      "Duration": 3000,
+      "Value": "50"
     },
     {
       "PowerHint": "GAME",
@@ -501,9 +513,15 @@
     },
     {
       "PowerHint": "GAME",
-      "Node": "TAUclampMin",
+      "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "100"
+      "Value": "50"
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "SchedBoost",
+      "Duration": 0,
+      "Value": "2"
     },
     {
       "PowerHint": "GAME_LOADING",
@@ -560,18 +578,6 @@
     },
     {
       "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "FGUclampMin",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "TAUclampMin",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
       "Node": "RestrictedCpuset",
       "Duration": 0,
       "Value": "0-3"
@@ -599,6 +605,6 @@
       "Node": "DoubleTap",
       "Duration": 0,
       "Value": "1"
-    },
+    }
   ]
 }
