@@ -361,3 +361,6 @@ $(call inherit-product, vendor/xiaomi/sea/sea-vendor.mk)
 SPAMMY_LOG_TAGS_S  := \
     libperfmgr \
     HWUI 
+
+#Keys
+#-include vendor/lineage-priv/keys/keys.mk
