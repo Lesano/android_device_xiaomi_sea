@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sea.mk
+    $(LOCAL_DIR)/aosp_sea.mk
