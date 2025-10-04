@@ -356,3 +356,8 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sea/sea-vendor.mk)
+
+#Remove some warnings.
+SPAMMY_LOG_TAGS_S  := \
+    libperfmgr \
+    HWUI 
