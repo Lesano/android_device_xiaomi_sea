@@ -23,3 +23,4 @@ if [ ! -d "device/mediatek/sepolicy_vndr"]; then
 
 if [ ! -d "hardware/lineage/interfaces/sensor"]; then
   rm hardware/lineage/interfaces/sensor
+fi
