@@ -4,7 +4,7 @@ if [ ! -d "hardware/mediatek" ]; then
   git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-22.2 hardware/xiaomi
 fi
 if [ ! -d "vendor/xiaomi/sea" ]; then
-  git clone https://github.com/lesano/android_device_xiaomi_sea -b aosp-a15 device/xiaomi/sea
+  git clone https://github.com/lesano/android_device_xiaomi_sea device/xiaomi/sea
 fi
 if [ ! -d "vendor/xiaomi/sea"]; then
   git clone https://github.com/lesano/android_vendor_xiaomi_sea vendor/xiaomi/sea
