@@ -27,6 +27,6 @@ if [ ! -d "device/mediatek/sepolicy_vndr" ]; then
   rm -rf device/mediatek/sepolicy_vndr
   git clone https://github.com/mt6781-devs/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr
 fi
-if [ ! -d "hardware/lineage/interfaces/sensor" ]; then
-  rm hardware/lineage/interfaces/sensor
+if [ ! -d "hardware/lineage/interfaces/sensors" ]; then
+  rm hardware/lineage/interfaces/sensors
 fi
